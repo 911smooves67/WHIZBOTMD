@@ -15,10 +15,10 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/WHIZBOT1/WHIZBOTMD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VacWsSl3LdQOmWZrBj0l";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VacWsSl3LdQOmWZrBj0l";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/95ce6ad6559693eba92d2.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/e33504bde4c11db43f83d.jpg";
 global.devs = "18763351213";
 global.sudo = process.env.SUDO || "18763351213";
-global.owner = process.env.OWNER_NUMBER || "18763351213";
+global.owner = process.env.OWNER_NUMBER || "254706692806";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -26,7 +26,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/e33504bde4c11db43f83d.jpg";
 global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -47,11 +47,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©️ 𝛲𝛩𝑊𝛯𝑅𝐷 𝐵𝑌 𝑊𝛨𝛪𝛧𝐵𝛩𝑇-𝛭𝐷",
-  author: process.env.PACK_AUTHER || "WHIZBOT-ᴍᴅ",
+  caption: process.env.CAPTION || "©️ 𝑨𝑨𝑻𝑹𝑬𝑼𝑺𝑿𝑿𝑿𝑰💫❌",
+  author: process.env.PACK_AUTHER || "AIACES",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "WHIZBOT-MD",
-  ownername: process.env.OWNER_NAME || "JAY BOTS",
+  botname: process.env.BOT_NAME || "2RT",
+  ownername: process.env.OWNER_NAME || "AISCES 🔱",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
